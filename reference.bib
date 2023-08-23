@@ -1,0 +1,604 @@
+@article{cauchy1847methode,
+  title={M{\'e}thode g{\'e}n{\'e}rale pour la r{\'e}solution des systemes d’{\'e}quations simultan{\'e}es},
+  author={Cauchy, Augustin and others},
+  journal={Comp. Rend. Sci. Paris},
+  volume={25},
+  number={1847},
+  pages={536--538},
+  year={1847}
+}
+
+
+@InProceedings{initialization_and_momentum_in_deep_learning,
+  title = 	 {On the importance of initialization and momentum in deep learning},
+  author = 	 {Sutskever, Ilya and Martens, James and Dahl, George and Hinton, Geoffrey},
+  booktitle = 	 {Proceedings of the 30th International Conference on Machine Learning},
+  pages = 	 {1139--1147},
+  year = 	 {2013},
+  editor = 	 {Dasgupta, Sanjoy and McAllester, David},
+  volume = 	 {28},
+  number =       {3},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Atlanta, Georgia, USA},
+  month = 	 {17--19 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v28/sutskever13.pdf},
+  url = 	 {https://proceedings.mlr.press/v28/sutskever13.html},
+  abstract = 	 {Deep and recurrent neural networks (DNNs and RNNs respectively) are powerful models that were considered to be almost impossible to train using stochastic gradient descent with momentum. In this paper, we show that when stochastic gradient descent with momentum uses a well-designed random initialization and a particular type of slowly increasing schedule for the momentum parameter, it can train both DNNs and RNNs (on datasets with long-term dependencies) to levels of performance that were previously achievable only with Hessian-Free optimization. We find that both the initialization and the momentum are crucial since poorly initialized networks cannot be trained with momentum and well-initialized networks perform markedly worse when the momentum is absent or poorly tuned.     Our success training these models suggests that previous attempts to train deep and recurrent neural networks from random initializations have likely failed due to poor initialization schemes. Furthermore, carefully tuned momentum methods suffice for dealing with the curvature issues in deep and recurrent network training objectives without the need for sophisticated second-order methods.   }
+}
+
+
+@article{HeavyBall,
+author = {Polyak, Boris},
+year = {1964},
+month = {12},
+pages = {1-17},
+title = {Some methods of speeding up the convergence of iteration methods},
+volume = {4},
+journal = {Ussr Computational Mathematics and Mathematical Physics},
+doi = {10.1016/0041-5553(64)90137-5}
+}
+
+
+@article{NesterovMomentum,
+  title={A method for unconstrained convex minimization problem with the rate of convergence $o(1/k^2)$},
+  author={Yurii Nesterov},
+  journal={Proceedings of the USSR Academy of Sciences},
+  volume={269},
+  pages={543--547},
+  year={1983}
+}
+
+
+
+@misc{kingma2017Adam,
+      title={Adam: A Method for Stochastic Optimization}, 
+      author={Diederik P. Kingma and Jimmy Ba},
+      year={2017},
+      eprint={1412.6980},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+
+@misc{ODEAdaptiveAlgorithm,
+      title={A general system of differential equations to model first order adaptive algorithms}, 
+      author={André Belotto da Silva and Maxime Gazeau},
+      year={2019},
+      eprint={1810.13108},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+
+@book{Hairerbook,
+author = {Hairer, Ernst and Norsett, Syvert and Wanner, G.},
+year = {1993},
+month = {01},
+pages = {},
+title = {Solving Ordinary Differential Equations I: Nonstiff Problems},
+volume = {8},
+isbn = {978-3-540-56670-0},
+doi = {10.1007/978-3-540-78862-1}
+}
+
+
+@InProceedings{xavier_initialization,
+  title = 	 {Understanding the difficulty of training deep feedforward neural networks},
+  author = 	 {Glorot, Xavier and Bengio, Yoshua},
+  booktitle = 	 {Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {249--256},
+  year = 	 {2010},
+  editor = 	 {Teh, Yee Whye and Titterington, Mike},
+  volume = 	 {9},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Chia Laguna Resort, Sardinia, Italy},
+  month = 	 {13--15 May},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf},
+  url = 	 {https://proceedings.mlr.press/v9/glorot10a.html},
+  abstract = 	 {Whereas before 2006 it appears that deep multi-layer neural networks were not successfully trained, since then several algorithms have been shown to successfully train them, with experimental results showing the superiority of deeper vs less deep architectures. All these experimental results were obtained with new initialization or training mechanisms. Our objective here is to understand better why standard gradient descent from random initialization is doing so poorly with deep neural networks, to better understand these recent relative successes and help design better algorithms in the future.  We first observe the influence of the non-linear activations functions. We find that the logistic sigmoid activation is unsuited for deep networks with random initialization because of its mean value, which can drive especially the top hidden layer into saturation. Surprisingly, we find that saturated units can move out of saturation by themselves, albeit slowly, and explaining the plateaus sometimes seen when training neural networks. We find that a new non-linearity that saturates less can often be beneficial. Finally, we study how activations and gradients vary across layers and during training, with the idea that training may be more difficult when the singular values of the Jacobian associated with each layer are far from 1.  Based on these considerations, we propose a new initialization scheme that brings substantially faster convergence.}
+}
+
+
+@article{StochasticApproximationMethod,
+author = {Herbert Robbins and Sutton Monro},
+title = {{A Stochastic Approximation Method}},
+volume = {22},
+journal = {The Annals of Mathematical Statistics},
+number = {3},
+publisher = {Institute of Mathematical Statistics},
+pages = {400 -- 407},
+year = {1951},
+doi = {10.1214/aoms/1177729586},
+URL = {https://doi.org/10.1214/aoms/1177729586}
+}
+
+
+@Inbook{Bengio_PracticalRecommendationforTraining,
+author="Bengio, Yoshua",
+title="Practical Recommendations for Gradient-Based Training of Deep Architectures",
+bookTitle="Neural Networks: Tricks of the Trade: Second Edition",
+year="2012",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="437--478",
+abstract="Learning algorithms related to artificial neural networks and in particular for Deep Learning may seem to involve many bells and whistles, called hyper-parameters. This chapter is meant as a practical guide with recommendations for some of the most commonly used hyperparameters, in particular in the context of learning algorithms based on back-propagated gradient and gradient-based optimization. It also discusses how to deal with the fact that more interesting results can be obtained when allowing one to adjust many hyper-parameters. Overall, it describes elements of the practice used to successfully and efficiently train and debug large-scale and often deep multi-layer neural networks. It closes with open questions about the training difficulties observed with deeper architectures.",
+isbn="978-3-642-35289-8",
+doi="10.1007/978-3-642-35289-8_26",
+url="https://doi.org/10.1007/978-3-642-35289-8_26"
+}
+
+
+@article{Adagard,
+  author  = {John Duchi and Elad Hazan and Yoram Singer},
+  title   = {Adaptive Subgradient Methods for Online Learning and Stochastic Optimization},
+  journal = {Journal of Machine Learning Research},
+  year    = {2011},
+  volume  = {12},
+  number  = {61},
+  pages   = {2121--2159},
+  url     = {http://jmlr.org/papers/v12/duchi11a.html}
+}
+
+
+@misc{Adadelta,
+  doi = {10.48550/ARXIV.1212.5701},
+  
+  url = {https://arxiv.org/abs/1212.5701},
+  
+  author = {Zeiler, Matthew D.},
+  
+  keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {ADADELTA: An Adaptive Learning Rate Method},
+  
+  publisher = {arXiv},
+  
+  year = {2012},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@article{GarkSandu,
+ ISSN = {00361429},
+ URL = {http://www.jstor.org/stable/24512240},
+ abstract = {This work considers a general structure of the additively partitioned Runge–Kutta methods by allowing for different stage values as arguments of different components of the right-hand side. An order conditions theory is developed for the new formulation of generalized additive methods, and stability and monotonicity investigations are carried out. The paper discusses the construction and properties of implicit-explicit and implicit-implicit methods in the new framework. The new approach, named GARK, introduces additional flexibility when compared to traditional partitioned Runge–Kutta formalism and therefore offers additional opportunities for the development of flexible solvers for systems with multiple scales, or driven by multiple physical processes.},
+ author = {ADRIAN SANDU and MICHAEL GÜNTHER},
+ journal = {SIAM Journal on Numerical Analysis},
+ number = {1},
+ pages = {17--42},
+ publisher = {Society for Industrial and Applied Mathematics},
+ title = {A GENERALIZED-STRUCTURE APPROACH TO ADDITIVE RUNGE–KUTTA METHODS},
+ urldate = {2022-09-07},
+ volume = {53},
+ year = {2015}
+}
+
+
+@article{InitializationSummary,
+author = {Narkhede, Meenal V. and Bartakke, Prashant P. and Sutaone, Mukul S.},
+title = {A Review on Weight Initialization Strategies for Neural Networks},
+year = {2022},
+issue_date = {Jan 2022},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {55},
+number = {1},
+issn = {0269-2821},
+url = {https://doi.org/10.1007/s10462-021-10033-z},
+doi = {10.1007/s10462-021-10033-z},
+abstract = {Over the past few years, neural networks have exhibited remarkable results for various applications in machine learning and computer vision. Weight initialization is a significant step employed before training any neural network. The weights of a network are initialized and then adjusted repeatedly while training the network. This is done till the loss converges to a minimum value and an ideal weight matrix is obtained. Thus weight initialization directly drives the convergence of a network. Therefore, the selection of an appropriate weight initialization scheme becomes necessary for end-to-end training. An appropriate technique initializes the weights such that the training of the network is accelerated and the performance is improved. This paper discusses various advances in weight initialization for neural networks. The weight initialization techniques in the literature adopted for feed-forward neural network, convolutional neural network, recurrent neural network and long short term memory network have been discussed in this paper. These techniques are classified as (1) initialization techniques without pre-training, which are further classified into random initialization and data-driven initialization, (2) initialization techniques with pre-training. The different weight initialization and weight optimization techniques which select optimal weights for non-iterative training mechanism have also been discussed. We provide a close overview of different initialization schemes in these categories. This paper concludes with discussions on existing schemes and the future scope for research.},
+journal = {Artif. Intell. Rev.},
+month = {jan},
+pages = {291–322},
+numpages = {32},
+keywords = {Unsupervised pre-training, Weight initialization, Data-driven initialization, Variance scaling, Interval based, Random initialization}
+}
+
+
+@InProceedings{glorotinitialization,
+  title = 	 {Understanding the difficulty of training deep feedforward neural networks},
+  author = 	 {Glorot, Xavier and Bengio, Yoshua},
+  booktitle = 	 {Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {249--256},
+  year = 	 {2010},
+  editor = 	 {Teh, Yee Whye and Titterington, Mike},
+  volume = 	 {9},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Chia Laguna Resort, Sardinia, Italy},
+  month = 	 {13--15 May},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf},
+  url = 	 {https://proceedings.mlr.press/v9/glorot10a.html},
+  abstract = 	 {Whereas before 2006 it appears that deep multi-layer neural networks were not successfully trained, since then several algorithms have been shown to successfully train them, with experimental results showing the superiority of deeper vs less deep architectures. All these experimental results were obtained with new initialization or training mechanisms. Our objective here is to understand better why standard gradient descent from random initialization is doing so poorly with deep neural networks, to better understand these recent relative successes and help design better algorithms in the future.  We first observe the influence of the non-linear activations functions. We find that the logistic sigmoid activation is unsuited for deep networks with random initialization because of its mean value, which can drive especially the top hidden layer into saturation. Surprisingly, we find that saturated units can move out of saturation by themselves, albeit slowly, and explaining the plateaus sometimes seen when training neural networks. We find that a new non-linearity that saturates less can often be beneficial. Finally, we study how activations and gradients vary across layers and during training, with the idea that training may be more difficult when the singular values of the Jacobian associated with each layer are far from 1.  Based on these considerations, we propose a new initialization scheme that brings substantially faster convergence.}
+}
+
+
+@INPROCEEDINGS{cycliclearningrate,
+  author={Smith, Leslie N.},
+  booktitle={2017 IEEE Winter Conference on Applications of Computer Vision (WACV)}, 
+  title={Cyclical Learning Rates for Training Neural Networks}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={464-472},
+  doi={10.1109/WACV.2017.58}}
+  
+  
+@article{rmsprop,
+  title={Lecture 6.5-rmsprop: Divide the gradient by a running average of its recent magnitude},
+  author={Tieleman, Tijmen and Hinton, Geoffrey and others},
+  journal={COURSERA: Neural networks for machine learning},
+  volume={4},
+  number={2},
+  pages={26--31},
+  year={2012}
+}
+
+
+@article{MNIST,
+author="LECUN, Y.",
+title="THE MNIST DATABASE of handwritten digits",
+journal="http://yann.lecun.com/exdb/mnist/",
+URL="https://cir.nii.ac.jp/crid/1571417126193283840"
+}
+
+@article { Lorenz63,
+      author = "Edward N.  Lorenz",
+      title = "Deterministic Nonperiodic Flow",
+      journal = "Journal of Atmospheric Sciences",
+      year = "1963",
+      publisher = "American Meteorological Society",
+      address = "Boston MA, USA",
+      volume = "20",
+      number = "2",
+      doi = "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2",
+      pages=      "130 - 141",
+      url = "https://journals.ametsoc.org/view/journals/atsc/20/2/1520-0469_1963_020_0130_dnf_2_0_co_2.xml"
+}
+
+
+@article{HORNIK1989,
+title = {Multilayer feedforward networks are universal approximators},
+journal = {Neural Networks},
+volume = {2},
+number = {5},
+pages = {359-366},
+year = {1989},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/0893-6080(89)90020-8},
+url = {https://www.sciencedirect.com/science/article/pii/0893608089900208},
+author = {Kurt Hornik and Maxwell Stinchcombe and Halbert White},
+keywords = {Feedforward networks, Universal approximation, Mapping networks, Network representation capability, Stone-Weierstrass Theorem, Squashing functions, Sigma-Pi networks, Back-propagation networks},
+abstract = {This paper rigorously establishes that standard multilayer feedforward networks with as few as one hidden layer using arbitrary squashing functions are capable of approximating any Borel measurable function from one finite dimensional space to another to any desired degree of accuracy, provided sufficiently many hidden units are available. In this sense, multilayer feedforward networks are a class of universal approximators.}
+}
+
+
+@article{HORNIK1991,
+title = {Approximation capabilities of multilayer feedforward networks},
+journal = {Neural Networks},
+volume = {4},
+number = {2},
+pages = {251-257},
+year = {1991},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/0893-6080(91)90009-T},
+url = {https://www.sciencedirect.com/science/article/pii/089360809190009T},
+author = {Kurt Hornik},
+keywords = {Multilayer feedforward networks, Activation function, Universal approximation capabilities, Input environment measure, () approximation, Uniform approximation, Sobolev spaces, Smooth approximation},
+abstract = {We show that standard multilayer feedforward networks with as few as a single hidden layer and arbitrary bounded and nonconstant activation function are universal approximators with respect to Lp(μ) performance criteria, for arbitrary finite input environment measures μ, provided only that sufficiently many hidden units are available. If the activation function is continuous, bounded and nonconstant, then continuous mappings can be learned uniformly over compact input sets. We also give very general conditions ensuring that networks with sufficiently smooth activation functions are capable of arbitrarily accurate approximation to a function and its derivatives.}
+}
+
+
+@article{Cybenko1991,
+  abstract = {{In this paper we demonstrate that finite linear combinations of compositions of a fixed, univariate function and a set of affine functionals can uniformly approximate any continuous function of n real variables with support in the unit hypercube; only mild conditions are imposed on the univariate function. Our results settle an open question about representability in the class of single hidden layer neural networks. In particular, we show that arbitrary decision regions can be arbitrarily well approximated by continuous feedforward neural networks with only a single internal, hidden layer and any continuous sigmoidal nonlinearity. The paper discusses approximation properties of other possible types of nonlinearities that might be implemented by artificial neural networks.}},
+  added-at = {2012-03-02T03:39:18.000+0100},
+  author = {Cybenko, G.},
+  biburl = {https://www.bibsonomy.org/bibtex/2be85c56ae384216b2e35bdf79b7fb477/baby9992006},
+  citeulike-article-id = {3561150},
+  citeulike-linkout-0 = {http://dx.doi.org/10.1007/BF02551274},
+  citeulike-linkout-1 = {http://www.springerlink.com/content/n873j15736072427},
+  day = 1,
+  doi = {10.1007/BF02551274},
+  interhash = {96aecb02daa11041489259a8edb54070},
+  intrahash = {be85c56ae384216b2e35bdf79b7fb477},
+  issn = {0932-4194},
+  journal = {Mathematics of Control, Signals, and Systems (MCSS)},
+  keywords = {approximation, control, duckling, free, lunch, no, theorem, theory, ugly, universal},
+  month = dec,
+  number = 4,
+  pages = {303--314},
+  posted-at = {2012-02-28 13:17:08},
+  priority = {2},
+  publisher = {Springer London},
+  timestamp = {2012-03-02T03:39:20.000+0100},
+  title = {{Approximation by superpositions of a sigmoidal function}},
+  url = {http://dx.doi.org/10.1007/BF02551274},
+  volume = 2,
+  year = 1989
+}
+
+
+@article{Empirical_Comparisons_of_Optimizers,
+  author    = {Dami Choi and
+               Christopher J. Shallue and
+               Zachary Nado and
+               Jaehoon Lee and
+               Chris J. Maddison and
+               George E. Dahl},
+  title     = {On Empirical Comparisons of Optimizers for Deep Learning},
+  journal   = {CoRR},
+  volume    = {abs/1910.05446},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1910.05446},
+  eprinttype = {arXiv},
+  eprint    = {1910.05446},
+  timestamp = {Wed, 16 Oct 2019 16:25:53 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1910-05446.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@misc{ELU2016,
+  doi = {10.48550/ARXIV.1511.07289},
+  
+  url = {https://arxiv.org/abs/1511.07289},
+  
+  author = {Clevert, Djork-Arné and Unterthiner, Thomas and Hochreiter, Sepp},
+  
+  keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)},
+  
+  publisher = {arXiv},
+  
+  year = {2015},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+
+@misc{SiLU2017,
+  doi = {10.48550/ARXIV.1702.03118},
+  
+  url = {https://arxiv.org/abs/1702.03118},
+  
+  author = {Elfwing, Stefan and Uchibe, Eiji and Doya, Kenji},
+  
+  keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Sigmoid-Weighted Linear Units for Neural Network Function Approximation in Reinforcement Learning},
+  
+  publisher = {arXiv},
+  
+  year = {2017},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@misc{GeLU2020,
+  doi = {10.48550/ARXIV.1606.08415},
+  
+  url = {https://arxiv.org/abs/1606.08415},
+  
+  author = {Hendrycks, Dan and Gimpel, Kevin},
+  
+  keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Gaussian Error Linear Units (GELUs)},
+  
+  publisher = {arXiv},
+  
+  year = {2016},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@article{BUTCHEROverview2000,
+title = {Numerical methods for ordinary differential equations in the 20th century},
+journal = {Journal of Computational and Applied Mathematics},
+volume = {125},
+number = {1},
+pages = {1-29},
+year = {2000},
+note = {Numerical Analysis 2000. Vol. VI: Ordinary Differential Equations and Integral Equations},
+issn = {0377-0427},
+doi = {https://doi.org/10.1016/S0377-0427(00)00455-6},
+url = {https://www.sciencedirect.com/science/article/pii/S0377042700004556},
+author = {J.C. Butcher},
+keywords = {Initial value problems, Adams–Bashforth method, Adams–Moulton method, Runge–Kutta method, Consistency, Stability and convergence, Order of methods, Stiff problems, Differential equation software},
+abstract = {Numerical methods for the solution of initial value problems in ordinary differential equations made enormous progress during the 20th century for several reasons. The first reasons lie in the impetus that was given to the subject in the concluding years of the previous century by the seminal papers of Bashforth and Adams for linear multistep methods and Runge for Runge–Kutta methods. Other reasons, which of course apply to numerical analysis in general, are in the invention of electronic computers half way through the century and the needs in mathematical modelling of efficient numerical algorithms as an alternative to classical methods of applied mathematics. This survey paper follows many of the main strands in the developments of these methods, both for general problems, stiff systems, and for many of the special problem types that have been gaining in significance as the century draws to an end.}
+}
+
+
+@book{Hairer1,
+  added-at = {2010-10-02T18:22:22.000+0200},
+  address = {Berlin},
+  author = {Hairer, E. and N{\o}rsett, S.P. and Wanner, G.},
+  biburl = {https://www.bibsonomy.org/bibtex/26bfd1a0356243229b8d30cb296e19f48/brouder},
+  edition = {Second},
+  interhash = {e4299d1b8f9819d82d6653a13cb75c5b},
+  intrahash = {6bfd1a0356243229b8d30cb296e19f48},
+  keywords = {imported},
+  publisher = {Springer},
+  timestamp = {2010-10-02T18:22:26.000+0200},
+  title = {Solving Ordinary Differential 
+ Equations {I} Nonstiff problems},
+  year = 2000
+}
+
+
+@book{Hairer2,
+author = {Hairer, Ernst and Wanner, Gerhard},
+year = {1996},
+month = {01},
+pages = {},
+title = {Solving Ordinary Differential Equations II. Stiff and Differential-Algebraic Problems},
+volume = {14},
+journal = {Springer Verlag Series in Comput. Math.},
+doi = {10.1007/978-3-662-09947-6}
+}
+
+
+@book{NocedalOptimization,
+  added-at = {2009-08-21T12:21:08.000+0200},
+  address = {New York, NY},
+  author = {Nocedal, {Jorge} and Wright, {Stephen J.}},
+  biburl = {https://www.bibsonomy.org/bibtex/28a42f1264dbca5b2e10460f70802807e/fbw_hannover},
+  edition = {2. ed.},
+  interhash = {22a7fec4243462045dfaabf3a92ff93f},
+  intrahash = {8a42f1264dbca5b2e10460f70802807e},
+  isbn = {978-0-387-30303-1},
+  keywords = {Mathematical_optimization Mathematische_Optimierung Methoden_und_Techniken_der_Betriebswirtschaft Methoden_und_Techniken_der_Ingenieurwissenschaften Numerische_Mathematik Numerisches_Verfahren Optimierung Theorie},
+  pagetotal = {XXII, 664},
+  ppn_gvk = {502988711},
+  publisher = {Springer},
+  series = {Springer series in operations research and financial engineering},
+  timestamp = {2009-08-21T12:21:09.000+0200},
+  title = {Numerical optimization},
+  url = {http://gso.gbv.de/DB=2.1/CMD?ACT=SRCHA&SRT=YOP&IKT=1016&TRM=ppn+502988711&sourceid=fbw_bibsonomy},
+  year = 2006
+}
+
+
+@misc{ReddiAdamConvergence,
+  doi = {10.48550/ARXIV.1904.09237},
+  
+  url = {https://arxiv.org/abs/1904.09237},
+  
+  author = {Reddi, Sashank J. and Kale, Satyen and Kumar, Sanjiv},
+  
+  keywords = {Machine Learning (cs.LG), Optimization and Control (math.OC), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Mathematics, FOS: Mathematics},
+  
+  title = {On the Convergence of Adam and Beyond},
+  
+  publisher = {arXiv},
+  
+  year = {2019},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@article{BUTCHER2000,
+title = {Numerical methods for ordinary differential equations in the 20th century},
+journal = {Journal of Computational and Applied Mathematics},
+volume = {125},
+number = {1},
+pages = {1-29},
+year = {2000},
+note = {Numerical Analysis 2000. Vol. VI: Ordinary Differential Equations and Integral Equations},
+issn = {0377-0427},
+doi = {https://doi.org/10.1016/S0377-0427(00)00455-6},
+url = {https://www.sciencedirect.com/science/article/pii/S0377042700004556},
+author = {J.C. Butcher},
+keywords = {Initial value problems, Adams–Bashforth method, Adams–Moulton method, Runge–Kutta method, Consistency, Stability and convergence, Order of methods, Stiff problems, Differential equation software},
+abstract = {Numerical methods for the solution of initial value problems in ordinary differential equations made enormous progress during the 20th century for several reasons. The first reasons lie in the impetus that was given to the subject in the concluding years of the previous century by the seminal papers of Bashforth and Adams for linear multistep methods and Runge for Runge–Kutta methods. Other reasons, which of course apply to numerical analysis in general, are in the invention of electronic computers half way through the century and the needs in mathematical modelling of efficient numerical algorithms as an alternative to classical methods of applied mathematics. This survey paper follows many of the main strands in the developments of these methods, both for general problems, stiff systems, and for many of the special problem types that have been gaining in significance as the century draws to an end.}
+}
+
+
+@article{
+stiffequation,
+author = {C. F. Curtiss  and J. O. Hirschfelder },
+title = {Integration of Stiff Equations*},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {38},
+number = {3},
+pages = {235-243},
+year = {1952},
+doi = {10.1073/pnas.38.3.235},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.38.3.235},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.38.3.235}}
+
+
+@article{IMEXpaper,
+title = {Implicit-explicit Runge-Kutta methods for time-dependent partial differential equations},
+journal = {Applied Numerical Mathematics},
+volume = {25},
+number = {2},
+pages = {151-167},
+year = {1997},
+note = {Special Issue on Time Integration},
+issn = {0168-9274},
+doi = {https://doi.org/10.1016/S0168-9274(97)00056-1},
+url = {https://www.sciencedirect.com/science/article/pii/S0168927497000561},
+author = {Uri M. Ascher and Steven J. Ruuth and Raymond J. Spiteri},
+abstract = {Implicit-explicit (IMEX) linear multistep time-discretization schemes for partial differential equations have proved useful in many applications. However, they tend to have undesirable time-step restrictions when applied to convection-diffusion problems, unless diffusion strongly dominates and an appropriate BDF-based scheme is selected (Ascher et al., 1995). In this paper, we develop Runge-Kutta-based IMEX schemes that have better stability regions than the best known IMEX multistep schemes over a wide parameter range.}
+}
+
+
+@article{ARKmethods,
+title = {Additive Runge–Kutta schemes for convection–diffusion–reaction equations},
+journal = {Applied Numerical Mathematics},
+volume = {44},
+number = {1},
+pages = {139-181},
+year = {2003},
+issn = {0168-9274},
+doi = {https://doi.org/10.1016/S0168-9274(02)00138-1},
+url = {https://www.sciencedirect.com/science/article/pii/S0168927402001381},
+author = {Christopher A. Kennedy and Mark H. Carpenter},
+abstract = {Additive Runge–Kutta (ARK) methods are investigated for application to the spatially discretized one-dimensional convection–diffusion–reaction (CDR) equations. Accuracy, stability, conservation, and dense-output are first considered for the general case when N different Runge–Kutta methods are grouped into a single composite method. Then, implicit–explicit, (N=2), additive Runge–Kutta (ARK2) methods from third- to fifth-order are presented that allow for integration of stiff terms by an L-stable, stiffly-accurate explicit, singly diagonally implicit Runge–Kutta (ESDIRK) method while the nonstiff terms are integrated with a traditional explicit Runge–Kutta method (ERK). Coupling error terms of the partitioned method are of equal order to those of the elemental methods. Derived ARK2 methods have vanishing stability functions for very large values of the stiff scaled eigenvalue, z[I]→−∞, and retain high stability efficiency in the absence of stiffness, z[I]→0. Extrapolation-type stage-value predictors are provided based on dense-output formulae. Optimized methods minimize both leading order ARK2 error terms and Butcher coefficient magnitudes as well as maximize conservation properties. Numerical tests of the new schemes on a CDR problem show negligible stiffness leakage and near classical order convergence rates. However, tests on three simple singular-perturbation problems reveal generally predictable order reduction. Error control is best managed with a PID-controller. While results for the fifth-order method are disappointing, both the new third- and fourth-order methods are at least as efficient as existing ARK2 methods.}
+}
+
+
+@article{crank_nicolson_1947, title={A practical method for numerical evaluation of solutions of partial differential equations of the heat-conduction type}, volume={43}, DOI={10.1017/S0305004100023197}, number={1}, journal={Mathematical Proceedings of the Cambridge Philosophical Society}, publisher={Cambridge University Press}, author={Crank, J. and Nicolson, P.}, year={1947}, pages={50–67}}
+
+
+@inproceedings{SgdGeneralizeBetter,
+  title={Train faster, generalize better: Stability of stochastic gradient descent},
+  author={Hardt, Moritz and Recht, Ben and Singer, Yoram},
+  booktitle={International conference on machine learning},
+  pages={1225--1234},
+  year={2016},
+  organization={PMLR}
+}
+
+
+@article{LargeBatchGeneralizeWorse,
+  title={Don't use large mini-batches, use local sgd},
+  author={Lin, Tao and Stich, Sebastian U and Patel, Kumar Kshitij and Jaggi, Martin},
+  journal={arXiv preprint arXiv:1808.07217},
+  year={2018}
+}
+
+
+@misc{AdamCloserSGD,
+  title={Adam vs. SGD: Closing the generalization gap on image classification},
+  author={Gupta, Aman and Ramanath, Rohan and Shi, Jun and Keerthi, S Sathiya},
+  year={2021}
+}
+
+
+@misc{LargeBatchTraining,
+  doi = {10.48550/ARXIV.1904.00962},
+  
+  url = {https://arxiv.org/abs/1904.00962},
+  
+  author = {You, Yang and Li, Jing and Reddi, Sashank and Hseu, Jonathan and Kumar, Sanjiv and Bhojanapalli, Srinadh and Song, Xiaodan and Demmel, James and Keutzer, Kurt and Hsieh, Cho-Jui},
+  
+  keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Computation and Language (cs.CL), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Large Batch Optimization for Deep Learning: Training BERT in 76 minutes},
+  
+  publisher = {arXiv},
+  
+  year = {2019},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@misc{VGG,
+      title={Very Deep Convolutional Networks for Large-Scale Image Recognition}, 
+      author={Karen Simonyan and Andrew Zisserman},
+      year={2015},
+      eprint={1409.1556},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}

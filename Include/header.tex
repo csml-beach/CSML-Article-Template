@@ -1,0 +1,25 @@
+\usepackage[dvipsnames]{xcolor}
+\usepackage[listings,skins,breakable]{tcolorbox}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{stix} % Use the STIX fonts
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newcommand*{\plogo}{\fbox{ {Computational Science and Machine Learning Lab - Technical Report}}} % Generic dummy publisher logo
+\newcommand{\bs}{\boldsymbol}
+\hypersetup{
+	colorlinks = true, linkcolor = red, anchorcolor = blue,
+	citecolor = blue,  filecolor = blue, urlcolor = blue}
+
+ \newtcbox{\arashnote}{breakable,enhanced jigsaw,nobeforeafter,tcbox raise base,boxrule=0.4pt,top=0mm,bottom=0mm,
+  right=0mm,left=4mm,arc=1pt,boxsep=2pt,before upper={\vphantom{dlg}},
+  colframe=Green!75!black,coltext=black,colback=Green!75,
+  overlay={\begin{tcbclipinterior}\fill[Green!75!black] (frame.south west)
+    rectangle node[text=white,font=\sffamily\bfseries\tiny,rotate=90] {ArSa} ([xshift=4mm]frame.north west);\end{tcbclipinterior}}}
+\MakeRobust\arashnote
+\ifdefined\pdfstringdefDisableCommands
+  \pdfstringdefDisableCommands{\def\mylib#1{'#1'}}
+\fi

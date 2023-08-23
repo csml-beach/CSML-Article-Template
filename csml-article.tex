@@ -1,0 +1,59 @@
+\documentclass[preprint,12pt]{elsarticle}
+
+%% Use the option review to obtain double line spacing
+%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn]{elsarticle}
+%% \documentclass[final,3p,times]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn]{elsarticle}
+%% \documentclass[final,5p,times]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn]{elsarticle}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers.
+%% \usepackage{lineno}
+
+\include{Include/header}
+
+\journal{arxiv}
+
+\begin{document}
+
+\begin{frontmatter}
+\input{Include/coverpage}
+\input{Include/frontmatter}
+\end{frontmatter}
+
+%% \linenumbers
+
+%%%%%%%% Main %%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Include/introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Include/background}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Include/methodology}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Include/experiments}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Include/conclusion}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ 
+\bibliographystyle{elsarticle-num} 
+\bibliography{arxiv} 
+\end{document}
+
